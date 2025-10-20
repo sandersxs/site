@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovateTech - Сайт-визитка</title>
+    <link rel="icon" href="images/icon.png">
+        <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="page">
+    <!-- Частицы для фона -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Шапка сайта -->
+    <header class="header" id="header">
+        <div class="header__container">
+            <a href="#" class="header__logo">
+                <i class="fas fa-rocket"></i>
+                Innovate<span class="header__logo-accent">Tech</span>
+            </a>
+            <nav class="header__nav" id="headerNav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="#home" class="header__nav-link">Главная</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#about" class="header__nav-link">О нас</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#services" class="header__nav-link">Услуги</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#portfolio" class="header__nav-link">Портфолио</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#team" class="header__nav-link">Команда</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#contact" class="header__nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header__menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero" id="home">
+        <div class="hero__container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Создаем цифровые 
+                    <span class="hero__title-accent">решения</span> 
+                    для вашего бизнеса
+                </h1>
+                <p class="hero__subtitle">
+                    Мы команда профессионалов, которая превращает ваши идеи в современные цифровые продукты с использованием передовых технологий и креативного подхода.
+                </p>
+                <div class="hero__buttons">
+                    <a href="#portfolio" class="hero__button hero__button--primary">Наши работы</a>
+                    <a href="#contact" class="hero__button hero__button--secondary">Связаться с нами</a>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="hero__blob"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О компании -->
+    <section class="about" id="about">
+        <div class="about__container">
+            <h2 class="about__title">О нашей компании</h2>
+            <p class="about__subtitle">
+                InnovateTech - это команда энтузиастов, которые создают инновационные цифровые решения с 2015 года.
+            </p>
+            <div class="about__content">
+                <div class="about__image">
+                    <img src="images/riski.jpg" alt="Наш офис">
+                </div>
+                <div class="about__text">
+                    <p class="about__description">
+                        Мы специализируемся на создании веб-приложений, мобильных приложений и сложных программных решений для бизнеса. Наш подход сочетает в себе глубокое понимание бизнес-процессов, креативный дизайн и передовые технологии.
+                    </p>
+                    <p class="about__description">
+                        За годы работы мы успешно реализовали более 150 проектов для клиентов из различных отраслей: от стартапов до крупных корпораций.
+                    </p>
+                    <ul class="about__features">
+                        <li class="about__feature">
+                            <i class="fas fa-check-circle"></i>
+                            Более 7 лет на рынке IT-услуг
+                        </li>
+                        <li class="about__feature">
+                            <i class="fas fa-check-circle"></i>
+                            Команда из 25+ профессионалов
+                        </li>
+                        <li class="about__feature">
+                            <i class="fas fa-check-circle"></i>
+                            150+ успешных проектов
+                        </li>
+                        <li class="about__feature">
+                            <i class="fas fa-check-circle"></i>
+                            Клиенты в 15 странах мира
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="services" id="services">
+        <div class="services__container">
+            <h2 class="services__title">Наши услуги</h2>
+            <p class="services__subtitle">
+                Мы предлагаем полный спектр услуг для цифровой трансформации вашего бизнеса.
+            </p>
+            <div class="services__grid">
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="service-card__title">Веб-разработка</h3>
+                    <p class="service-card__description">
+                        Создаем современные, отзывчивые и высокопроизводительные веб-сайты и веб-приложения.
+                    </p>
+                    <a href="#" class="service-card__link">
+                        Узнать больше <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-card__title">Мобильные приложения</h3>
+                    <p class="service-card__description">
+                        Разрабатываем нативные и кроссплатформенные мобильные приложения для iOS и Android.
+                    </p>
+                    <a href="#" class="service-card__link">
+                        Узнать больше <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="service-card__title">UI/UX Дизайн</h3>
+                    <p class="service-card__description">
+                        Создаем интуитивно понятные и визуально привлекательные интерфейсы для ваших продуктов.
+                    </p>
+                    <a href="#" class="service-card__link">
+                        Узнать больше <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 class="service-card__title">Облачные решения</h3>
+                    <p class="service-card__description">
+                        Помогаем с миграцией в облако и разработкой облачных архитектур для масштабирования бизнеса.
+                    </p>
+                    <a href="#" class="service-card__link">
+                        Узнать больше <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio__container">
+            <h2 class="portfolio__title">Наши работы</h2>
+            <p class="portfolio__subtitle">
+                Посмотрите на некоторые из наших последних проектов, которые мы реализовали для наших клиентов.
+            </p>
+            <div class="portfolio__grid">
+                <div class="portfolio-item">
+                    <img src="images/banner.jpg" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay">
+                        <h3 class="portfolio-item__title">Финансовое приложение</h3>
+                        <p class="portfolio-item__description">Мобильное приложение для управления личными финансами</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/notebook.jpg" alt="Проект 2" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay">
+                        <h3 class="portfolio-item__title">Корпоративный портал</h3>
+                        <p class="portfolio-item__description">Веб-платформа для управления внутренними процессами компании</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/analitycs.jpg" alt="Проект 3" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay">
+                        <h3 class="portfolio-item__title">Интернет-магазин</h3>
+                        <p class="portfolio-item__description">Полнофункциональная платформа электронной коммерции</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Команда -->
+    <section class="team" id="team">
+        <div class="team__container">
+            <h2 class="team__title">Наша команда</h2>
+            <p class="team__subtitle">
+                Познакомьтесь с талантливыми людьми, которые работают над вашими проектами.
+            </p>
+            <div class="team__grid">
+                <div class="team-member">
+                    <img src="images/Alex.jfif" alt="Алексей Петров" class="team-member__image">
+                    <div class="team-member__info">
+                        <h3 class="team-member__name">Алексей Петров</h3>
+                        <p class="team-member__role">CEO & Основатель</p>
+                        <p class="team-member__description">С более чем 10-летним опытом в IT-индустрии.</p>
+                        <div class="team-member__social">
+                            <a href="#" class="team-member__social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="team-member__social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="team-member__social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/Maria.jpg" alt="Мария Иванова" class="team-member__image">
+                    <div class="team-member__info">
+                        <h3 class="team-member__name">Мария Иванова</h3>
+                        <p class="team-member__role">Lead Designer</p>
+                        <p class="team-member__description">Создает потрясающие UI/UX дизайны для наших клиентов.</p>
+                        <div class="team-member__social">
+                            <a href="#" class="team-member__social-link">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                            <a href="#" class="team-member__social-link">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="team-member__social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/Dmitry.jpg " alt="Дмитрий Сидоров" class="team-member__image">
+                    <div class="team-member__info">
+                        <h3 class="team-member__name">Дмитрий Сидоров</h3>
+                        <p class="team-member__role">Lead Developer</p>
+                        <p class="team-member__description">Эксперт в full-stack разработке и облачных технологиях.</p>
+                        <div class="team-member__social">
+                            <a href="#" class="team-member__social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="team-member__social-link">
+                                <i class="fab fa-stack-overflow"></i>
+                            </a>
+                            <a href="#" class="team-member__social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/Olga.jpg" alt="Ольга Кузнецова" class="team-member__image">
+                    <div class="team-member__info">
+                        <h3 class="team-member__name">Ольга Кузнецова</h3>
+                        <p class="team-member__role">Project Manager</p>
+                        <p class="team-member__description">Управляет проектами и обеспечивает их успешную реализацию.</p>
+                        <div class="team-member__social">
+                            <a href="#" class="team-member__social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="team-member__social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="team-member__social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="contact" id="contact">
+        <div class="contact__container">
+            <h2 class="contact__title">Свяжитесь с нами</h2>
+            <p class="contact__subtitle">
+                Готовы начать проект? Свяжитесь с нами, и мы обсудим, как можем помочь вашему бизнесу.
+            </p>
+            <div class="contact__content">
+                <div class="contact__info">
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact__details">
+                            <h3>Адрес</h3>
+                            <p>г. Москва, ул. Тверская, д. 10</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact__details">
+                            <h3>Телефон</h3>
+                            <p>+7 (495) 123-45-67</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact__details">
+                            <h3>Email</h3>
+                            <p>info@innovatetech.ru</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact__details">
+                            <h3>Режим работы</h3>
+                            <p>Пн-Пт: 9:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact__form" id="contactForm">
+                    <div class="contact__form-group">
+                        <label for="name" class="contact__label">Ваше имя</label>
+                        <input type="text" id="name" class="contact__input" required>
+                    </div>
+                    <div class="contact__form-group">
+                        <label for="email" class="contact__label">Email</label>
+                        <input type="email" id="email" class="contact__input" required>
+                    </div>
+                    <div class="contact__form-group">
+                        <label for="subject" class="contact__label">Тема</label>
+                        <input type="text" id="subject" class="contact__input" required>
+                    </div>
+                    <div class="contact__form-group">
+                        <label for="message" class="contact__label">Сообщение</label>
+                        <textarea id="message" class="contact__textarea" required></textarea>
+                    </div>
+                    <button type="submit" class="contact__button">
+                        Отправить сообщение <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__col">
+                    <div class="footer__logo">
+                        <i class="fas fa-rocket"></i>
+                        Innovate<span class="footer__logo-accent">Tech</span>
+                    </div>
+                    <p class="footer__description">
+                        Мы создаем инновационные цифровые решения, которые помогают бизнесу расти и развиваться в современном мире.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Услуги</h3>
+                    <ul class="footer__links">
+                        <li class="footer__link-item">
+                            <a href="#" class="footer__link">Веб-разработка</a>
+                        </li>
+                        <li class="footer__link-item">
+                            <a href="#" class="footer__link">Мобильные приложения</a>
+                        </li>
+                        <li class="footer__link-item">
+                            <a href="#" class="footer__link">UI/UX Дизайн</a>
+                        </li>
+                        <li class="footer__link-item">
+                            <a href="#" class="footer__link">Облачные решения</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Компания</h3>
+                    <ul class="footer__links">
+                        <li class="footer__link-item">
+                            <a href="#" class="footer__link">О нас</a>
+                        </li>
+                        <li class="footer__link-item">
+                            <a href="#" class="footer__link">Команда</a>
+                        </li>
+                        <li class="footer__link-item">
+                            <a href="#" class="footer__link">Карьера</a>
+                        </li>
+                        <li class="footer__link-item">
+                            <a href="#" class="footer__link">Блог</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Контакты</h3>
+                    <ul class="footer__links">
+                        <li class="footer__link-item">
+                            <a href="#" class="footer__link">г. Москва, ул. Тверская, д. 10</a>
+                        </li>
+                        <li class="footer__link-item">
+                            <a href="#" class="footer__link">+7 (495) 123-45-67</a>
+                        </li>
+                        <li class="footer__link-item">
+                            <a href="#" class="footer__link">info@innovatetech.ru</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2023 InnovateTech. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script  type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
